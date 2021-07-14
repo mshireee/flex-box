@@ -1,4 +1,4 @@
-.flex {
+.panel {
     padding: 10px;
     display: flex;
     justify-content: space-evenly;
@@ -6,24 +6,9 @@
     flex-direction: column;
     border: 5px solid black;
     margin-bottom: 20px;
-    width: 500px;
 }
-/* .flex div {
-    border: 2px solid black;
-    padding: 10px;
-    min-width: 100px;
-    height: 150px; */
-/* } */
-/* #special {
-    width: 400px;
-    justify-content: space-between;
-} */
-/* .flex div p {
-    height: 30px;
-    width: 30px;
-} */
 
-.right {
-    display: flex;
-    align-self: flex-end;
+.right-panel {
+    align-items: flex-end;
+    justify-self:right
 }
